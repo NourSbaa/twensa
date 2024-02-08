@@ -1,0 +1,45 @@
+html,body {
+    height: :100%; /* aala kopber l warka */
+    margin : 0% ; /* deux bolcs binethomch espace f 0 sinon kadeh theb tkhali binethom  ki thotlou zouz b jnab baadhom yaani kdh ykhali mn fouk aal limin  , 4 aal kol */
+}
+body{
+    background-color:rgb(204, 198, 198) ;
+    margin: 0%;
+    color:rgb(0, 0, 0); /*aal liktiba*/
+    font-family: Arial, Helvetica, sans-serif; /* police*/
+
+}
+ul li {
+    list-style: none; /* tnahi i nouket  (none) tnahi*/
+}
+a{
+    text-decoration: none ; /*  tnahi likhat ili taht liklem */
+    color: rgb(0, 0, 0);
+}
+header{
+    background: url('file:///C:/Users/sbaa/OneDrive/Bureau/twensa/kb0Zm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0% ; 
+    position: relative;/* yekhouh keml */
+    #banner{ /*bch nhothom mnadhmin taht baadhhom f nos*/
+        text-align: center;
+        padding-top: 150px;
+    
+    
+    }
+    #banner span {
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+    }
+    #banner a { /* bch i start twalili f cadre o zarka */
+        background-color: rgb(236, 28, 28);
+        border-radius: 10px; /* thotli l cadre */
+        padding: 15px;
+        font-size: 20px;
+        margin-top: 30px;
+        display:inline-block;
+    } 
+
+
+}

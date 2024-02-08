@@ -1,0 +1,74 @@
+
+
+body{
+    background-color:rgb(204, 198, 198) ;
+    margin: 0px;
+    color:rgb(0, 0, 0); /*aal liktiba*/
+    background: url('https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-acevee_case.gif');
+    /*background-repeat: no-repeat;*/
+   /* background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0px ; 
+    position: relative;
+    background-size: 80% ;
+   
+
+
+}
+fieldset{
+    width: 400px;
+    border-radius: 100px;
+    border-color: rgb(255, 0, 0);
+    
+  margin-left: 400px;
+  margin-right: 20px;
+  text-align: center }
+ 
+  
+  #mb23{
+    width: 130px;
+    height:160px;
+    margin-left: 200px;
+    margin-right: 0px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    display :contents;
+    border-radius:0%;
+    box-shadow: 0px 0px #404041 ;
+    display: inline-block }
+   
+#mb23{
+    background: url(../image/symbole-homme-25558.jpg) no-repeat;
+    background-size: cover;
+    position:absolute ;
+    top: 200px;
+}
+#mb22,#mb24{
+    width: 140px;
+    height:140px;
+    margin-left: 200px;
+    margin-right: 0px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    display :contents;
+    border-radius:0%;
+    box-shadow: 0px 0px #404041 ;
+    display: inline-block }
+#mb22{
+    background: url(../image/Sigle-enfants.png) no-repeat;
+    background-size: cover;
+    position:absolute ;
+    top: 200px;
+    position:absolute ;
+    left: 800px;
+}
+
+#mb24{
+    background: url(../image/7db7460330b70dfe74fdf9dbffe502490ed125aar1-2000-2000v2_uhq.jpg) no-repeat; 
+    background-size: cover;
+    position:absolute ;
+    top: 200px;
+    left: 400px;
+
+}
+  
+  

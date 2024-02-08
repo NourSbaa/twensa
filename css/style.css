@@ -1,0 +1,454 @@
+@font-face {
+    font-family: Grape Nuts;
+    src:  url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Grape+Nuts&display=swap');
+}
+html,body {
+   /* height: :100%; /* aala kopber l warka */
+   height: 100%; 
+    /* deux bolcs binethomch espace f 0 sinon kadeh theb tkhali binethom  ki thotlou zouz b jnab baadhom yaani kdh ykhali mn fouk aal limin  , 4 aal kol */
+}
+body{
+    background-color:rgb(204, 198, 198) ;
+    margin: 0px;
+    color:rgb(0, 0, 0); /*aal liktiba*/
+    background: url('file:///C:/Users/sbaa/OneDrive/Bureau/twensa/kb0Zm.jpg');
+    /*background-repeat: no-repeat;*/
+   /* background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0px ; 
+    position: relative;/* yekhouh keml */
+    
+
+
+}
+ul li {
+    list-style: none; /* tnahi i nouket  (none) tnahi*/
+}
+a{
+    text-decoration: none ; /*  tnahi likhat ili taht liklem */
+    color: rgb(0, 0, 0);
+}
+/******************header******************/
+header{
+    background: #000 url('file:///C:/Users/sbaa/OneDrive/Bureau/twensa/kb0Zm.jpg') no-repeat;
+
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0px; 
+    position: relative;/* yekhouh keml */
+    width: 100%;
+    width:cover;
+
+}
+.container{
+    width: 1000px;
+    position: relative ;
+    overflow: hidden; 
+    padding: 50px;
+    display: inline-block /*thot kol chy f nos */;
+}
+/******************LOGO*************************/
+#logo{ /* id hedhy dima b #*/
+   
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0% ; 
+    position: relative;/* yekhouh keml */
+    top:0; /* ahbat */
+    left: 0;
+
+    /*position: absolute ; /* najam nhot hdheha haja okhra */
+}
+#logo h2 {
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(233, 6, 6) ;
+    padding-left: 5px ; /* nharakha aal lisar */
+}
+/*********************Menu*****************************/
+#menu{
+    top: 3.2em;
+    right: 0;
+    position: absolute;
+
+}
+#menu ul li {
+    display: inline-flex ; /* thothomlna fard star */
+    padding-right: 5px; /* nkhali binethom espace*/
+}
+#menu a{ /* bch naplikhom aal les a lkol */
+    text-transform: uppercase;/* maj*/
+
+
+}
+#menu a:hover{ /* ki nhot aaleha i souris*/
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+}
+#menu a:active{ /*ki tenzel aalih*/
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px ;
+    color: rgb(255, 255, 255) ;
+
+}
+
+#banner{ /*bch nhothom mnadhmin taht baadhhom f nos*/
+    text-align: center;
+    padding-top: 140px;
+
+}
+#banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#banner span {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+#bloc h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0px; /* ynahi l espace*/
+
+}
+#bloc span{
+    font-size: 15px;
+    color: rgb(40, 39, 39);
+}
+#mb1,#mb2,#mb3,#mb4 {
+    width: 320px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 20px;
+    background-color: rgb(231, 26, 26);
+    border-color: black;
+    display: inline-flex;
+    border-radius: 60%;
+    box-shadow: 7px 0px #565252cd ;
+    display: inline-block
+}
+#mb1{
+    background: url(../image/a.jpg) no-repeat;
+    background-size: cover;
+
+}
+#mb2{
+    background: url(../image/aa.jpg) no-repeat;
+    background-size: cover;
+    
+   
+}
+#mb3{
+    background: url(../image/aaa.jpg) no-repeat; 
+    background-size: cover;
+
+}
+#mb4{
+    background: url(../image/aaaa.jpg) no-repeat;
+    background-size: cover;
+    
+    
+}
+#mb6 {
+    width: 240px;
+    height: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(231, 26, 26);
+    border-color: black;
+    display: inline-flex;
+    border-radius: 10%;
+    box-shadow: 0px 0px  ;
+    display: inline-block;
+}
+#mb6{
+    background: url(../image/twensa.png) no-repeat;
+    background-size: cover;
+  
+
+}
+#mb8,#mb9,#mb10 {
+    width: 192px;
+    height: 192px;
+    margin-left: 100px;
+    margin-right: 50px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    display: inline-flex;
+    border-radius: 60%;
+    box-shadow: 0px 0px #404041 ;
+    display: inline-block
+}
+#mb8{
+    background: url(../image/espace.png) no-repeat;
+    background-size: cover;
+
+}
+#mb9{
+    background: url(../image/faire.png) no-repeat;
+    background-size: cover;
+
+}
+#mb10{
+    background: url(../image/ins.png) no-repeat;
+    background-size: cover;
+
+}
+footer{
+    background-color: rgb(22, 21, 21);
+    padding: 12px;
+    margin: 0px;
+   
+
+}
+footer p{
+    padding-left: 0px;
+    color: #fff;
+    font-size: 10px;
+}
+footer a{
+   text-transform: uppercase;
+   color: rgb(255, 255, 255);
+   font-size: 12px;
+   letter-spacing: 1px;
+   text-decoration:overline;
+}
+#mb11,#mb12,#mb13,#mb14 {
+    width: 30px; /*3ordh*/
+    height:30px;
+  
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    display :contents;
+    border-radius:0%;
+    box-shadow: 0px 0px #404041 ;
+    display: inline-block }
+#mb11{
+    background: url(../image/fcbk.png) no-repeat;
+    background-size: cover;
+}
+#mb12{
+    background: url(../image/insta.png) no-repeat;
+    background-size: cover;
+}
+#mb13{
+    background: url(../image/twtr.png) no-repeat; 
+    background-size: cover;
+
+}
+#mb14{
+    background: url(../image/what.png) no-repeat;
+    background-size: cover;
+}
+#mb21 {
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 90px;
+    background-color: rgb(231, 26, 26);
+    border-color: black;
+    display: inline-flex;
+    border-radius:0%;
+    box-shadow: 0px 0px  ;
+    display: inline-block
+    
+}
+#mb21{
+    background: url("https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-acevee_case.gif") no-repeat;
+    background-size: cover;}
+#mb11,#mb12,#mb13,#mb14 {
+    width: 50px;
+    height:50px;
+    margin-left: 200px;
+    margin-right: 0px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    display :contents;
+    border-radius:0%;
+    box-shadow: 0px 0px #404041 ;
+    display: inline-block }
+#mb11{
+    background: url(../image/fcbk.png) no-repeat;
+    background-size: cover;
+}
+#mb12{
+    background: url(../image/insta.png) no-repeat;
+    background-size: cover;
+}
+#mb13{
+    background: url(../image/twtr.png) no-repeat; 
+    background-size: cover;
+
+}
+#mb23{
+    width: 65px;
+    height:80px;
+    margin-left: 200px;
+    margin-right: 0px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    display :contents;
+    border-radius:0%;
+    box-shadow: 0px 0px #404041 ;
+    display: inline-block }
+#mb23{
+    background: url(../image/symbole-homme-25558.jpg) no-repeat;
+    background-size: cover;
+}
+#mb22,#mb24{
+    width: 70px;
+    height:70px;
+    margin-left: 200px;
+    margin-right: 0px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    display :contents;
+    border-radius:0%;
+    box-shadow: 0px 0px #404041 ;
+    display: inline-block }
+#mb22{
+    background: url(../image/Sigle-enfants.png) no-repeat;
+    background-size: cover;
+}
+
+#mb24{
+    background: url(../image/7db7460330b70dfe74fdf9dbffe502490ed125aar1-2000-2000v2_uhq.jpg) no-repeat; 
+    background-size: cover;
+
+}
+#mb25 {
+  width: 700px;
+            height:700px;
+            margin-left: 200px;
+            margin-right: 90px;
+            background-color: rgb(231, 26, 26);
+            border-color: black;
+            display: inline-flex;
+            border-radius: 0%;
+            box-shadow: 0px 0px  ;
+            display: inline-bloc
+}
+#mb25{
+    background: url(../image/E.png) no-repeat;
+    background-size: cover;}
+    #mb26 {
+        width: 600px;
+            height:600px;
+            margin-left: 250px;
+            margin-right: 90px;
+            background-color: rgb(231, 26, 26);
+            border-color: black;
+            display: inline-flex;
+            border-radius: 0%;
+            box-shadow: 0px 0px  ;
+            display: inline-bloc
+    }
+    #mb26{
+        background: url(../image/h.png) no-repeat;
+        background-size: cover;}
+        
+       
+       
+        #mb27 {
+            width: 600px;
+            height:600px;
+            margin-left: 250px;
+            margin-right: 90px;
+            background-color: rgb(231, 26, 26);
+            border-color: black;
+            display: inline-flex;
+            border-radius: 0%;
+            box-shadow: 0px 0px  ;
+            display: inline-block
+        }
+        #mb27{
+            background: url(../image/f.png) no-repeat;
+            background-size: cover;}
+            #mb28 {
+                width:600px;
+                height:600px;
+                margin-left: 300px;
+                margin-right: 200px;
+                background-color: rgb(231, 26, 26);
+                border-color: black;
+                display: inline-flex;
+                border-radius: 10%;
+                box-shadow: 0px 0px  ;
+                display: inline-block
+            }
+                #mb28{
+                    background: url(../image/cheveux.png) no-repeat;
+                    background-size: cover;}
+                    #mb30 {
+                        width:450px;
+                        height: 400px;
+                        margin-left: 270px;
+                        margin-right: 90px;
+                        background-color: rgb(231, 26, 26);
+                        border-color: black;
+                        display: inline-flex;
+                        border-radius: 10%;
+                        box-shadow: 0px 0px  ;
+                        display: inline-block
+                    }
+                    #mb30{
+                        background: url(../image/merci.png) no-repeat;
+                        background-size: cover;}
+                #mb31 {
+                            width: 675px;
+                            height: 600px;
+                            margin-left:200px;
+                            margin-right: 90px;
+                            background-color: rgb(231, 26, 26);
+                            border-color: black;
+                            display: inline-flex;
+                            border-radius: 10%;
+                            box-shadow: 0px 0px  ;
+                            display: inline-block
+                        }
+                        #mb31{
+                            background: url(../image/merci2.png) no-repeat;
+                            background-size: cover;}
+                            #mb40 {
+                                width: 350px;
+                                height: 350px;
+                                margin-left: 360px;
+                                margin-right: 100px;
+                                background-color: rgb(231, 26, 26);
+                                border-color: black;
+                                display: inline-flex;
+                                border-radius: 60%;
+                                box-shadow: 0px 0px  ;
+                                display: inline-block
+                            
+                            }
+                            #mb40{
+                                background: url('https://images.squarespace-cdn.com/content/v1/5e17401b6c8a0956357e4c70/1591894903173-BIXKXEN5K69ER3KE6CTI/Animated-Check-Original-Check-Red-GIF.gif') no-repeat;
+                                background-size: cover ;}
+                                
+                                .clickAnim {
+                                    width: 20px;
+                                    height: 20px;
+                                    border-radius: 50%; 
+                                    background: linear-gradient(to top, #be4646, #fffffa); 
+                                    position: absolute;
+                                    z-index: 900;
+                                    transform: scale(0);
+                                    transform-origin: center;
+                                    animation: clickAnim 1s ease-in-out;
+                                }
+                                
+                                @keyframes clickAnim {
+                                    0% {
+                                        transform: scale(0);
+                                    }
+                                    50% {
+                                        transform: scale(2);
+                                        opacity: 1;
+                                    }
+                                    0% {
+                                        transform: scale(0);
+                                  opacity: 0
+         }
+            }
+                        

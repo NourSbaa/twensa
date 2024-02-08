@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARTE BANCAIRE</title> <link rel ="stylesheet" href="css/styleCarte.css">
+    <script>
+        function convert (){
+            var dinar=prompt("saisir votre montant en dinar")
+            var euro=3.2;
+            var dollar=3
+            var R=dinar/euro;
+            var Z=dinar/dollar;
+            alert("votre montant est "+R+" £") ;
+            alert("votre montant est "+Z+" $")
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Votre Montant est =****** DT</h1>
+    <button onclick="convert()">Convertir  en euro</button> <br> <br>
+    <button onclick="convert()">Convertir  en dollar</button>
+        <header>
+            <section id="carte"></section>
+            <div class="container"> 
+            <div id="carteB">
+                
+                <div  id="mb15">
+                </div>
+            
+              
+          </div>
+          <div class="container">
+          <div id="right">
+            <form method="GET" action="fichier.php">
+                <fieldset>
+                    <legend>CARTE BANCAIRE </legend>
+        <label> NUMERO DE LA CARTE </label>
+        <input type="NUMERO DE LA CARTE" name="NUM " placeholder="################" > <br><br>
+        <label> CODE </label>
+        <input type="password" name="CODE" placeholder="***********" >
+        <br><br>
+        
+            </fieldset>
+        <fieldset>
+        <a href="file:///C:/Users/sbaa/OneDrive/Bureau/twensa/merci.html"> Envoyer </a> <br>
+    </fieldset>
+        </div>
+        
+            </form>   
+                    
+                      
+               </div>
+            </section>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+fieldset{
+    width: 400px;
+    border-radius: 20px;
+    border-color: rgb(18, 18, 18);
+    
+  margin-left: 400px;
+  margin-right: 20px;
+  text-align: center 
+  
+}
+</style>

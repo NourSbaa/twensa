@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSCRIPTION</title>
+    <link rel ="stylesheet" href="css/style.css">
+    
+</head>
+<header>
+<body>
+    <div class="container"> 
+        <div id="logo">
+            <a href='TWENSA.html'>
+            <div  id="mb6">
+            </div>
+        </a>
+        </div>
+    
+   
+    <form name="myForm" method="post" action="file:///C:/Users/sbaa/OneDrive/Bureau/twensa/inscription.html" onsubmit="return validFrom()">
+        <fieldset>
+            <legend>Informations Personnelles </legend>
+        <label>Nom :</label>
+        <input type="text" name="nom" placeholder="NOM" id="nom" onchange="return validFrom1()">
+        <br><br>
+        <label>Prénom :</label>
+        <input type="text" name="prenom" placeholder="PRENOM" id="prenom" onchange="return validFrom1()">
+    <br><br>
+    <label>E-mail: </label>
+    <input type="email" name="email" placeholder="EMAIL">
+<br><br>
+<label>Mot de passe</label>
+        <input type="password" name="pwd" placeholder="mot de passe" >
+    <br><br>
+<label>CIN</label>
+<input type="text" name="CIN" placeholder="CIN"   onchange="return validFrom()"  id="CIN">
+<br><br>
+<label>Tél: </label>
+<input type="tel" name="tel" maxlength="12"  placeholder="02 637 826" id="tel" onchange="return validFrom1()">
+<br><br>
+<label>Genre:</label>
+<input type="radio"value="femme"name="genre" checked><label>Femme</label>
+<input type="radio"value="homme"name="genre"><label>Homme</label>
+<br><br>
+<label>Ville :</label>
+<select name="Ville">
+    <option></option>
+    <option value="Tunis">Tunisia</option>
+    <option value="Sousse">Sousse</option>
+    <option value="Sfax" selected>Sfax</option>
+    <option value="Monastir" selected>Monastir</option>
+    <option value="Nabel" selected>Nabel</option>
+    <option value="Mahdia" selected>Mahdia</option>
+    <option value="Kef" selected>Kef</option>
+</select>
+<br><br>
+<label>Adresse:</label>
+<textarea name="adresse" rows="3" cols="50" maxlength="150" ></textarea> <br> <br>
+
+<input type="submit" value="verification" , href="file:///C:/Users/sbaa/OneDrive/Bureau/twensa/choix2.html"  > <br>
+
+  
+</fieldset>
+<fieldset>
+<a href="file:///C:/Users/sbaa/OneDrive/Bureau/twensa/choix2.html"> Refresh| </a> 
+<a href="file:///C:/Users/sbaa/OneDrive/Bureau/twensa/done.html"> Envoyer </a> <br>
+</fieldset>
+</div>
+
+    </form>
+    <script type="text/javascript" src="java/java.js"></script>
+    <script type="text/javascript" src="java/java2.js"></script>
+   
+   
+
+</body>
+</html>
+</header>
+<style>
+    fieldset{
+        width: 1400 px;
+        border-radius: 100px;
+        border-color: rgb(255, 0, 0);
+        text-align: center;
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center
+    }
+
+      input[type=text],input[type=password]{
+
+        width: 300px;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-top: 10px;
+        }
+        input[type=submit]{
+        width: 100px;
+        background-color: rgba(232, 17, 17, 0.308);
+        border: none;
+        padding: 5px;
+        margin-left: 130px;
+        border-radius: 5px;
+        }
+
+    </style> 
+    </style> 

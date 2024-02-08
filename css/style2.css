@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(204, 198, 198) ;
+    margin: 0%;
+    color:rgb(0, 0, 0); /*aal liktiba*/
+    font-family: Arial, Helvetica, sans-serif; /* police*/
+    
+
+}
+ul li {
+    list-style: none; /* tnahi i nouket  (none) tnahi*/
+}
+a{
+    text-decoration: none ; /*  tnahi likhat ili taht liklem */
+    color: rgb(0, 0, 0);
+}
+header{
+    background: url('file:///C:/Users/sbaa/OneDrive/Bureau/twensa/kb0Zm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0% ; 
+    position: relative;/* yekhouh keml */
+}
+#body h1 {
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(233, 6, 6) ;
+    padding-left: 5px ; 
+}
+body{
+    background-color:rgb(204, 198, 198) ;
+    margin: 0%;
+    color:rgb(0, 0, 0); /*aal liktiba*/
+    background: url('file:///C:/Users/sbaa/OneDrive/Bureau/twensa/kb0Zm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0% ; 
+    position: relative;/* yekhouh keml */
+
+}

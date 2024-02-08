@@ -1,0 +1,111 @@
+
+#left{
+    border: 1px;
+    width: 300px;
+    min-height: 100px;
+    float: left;
+}
+#right{
+    border: 1px;
+    min-width: 150px;
+    margin-left: 180px;
+    overflow: auto;
+}
+#logo{ /* id hedhy dima b #*/
+    background: url('#');
+    background-repeat: no-repeat;
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0% ; 
+    position: relative;/* yekhouh keml */
+    top:0; /* ahbat */
+    left: 0;
+    /*position: absolute ; /* najam nhot hdheha haja okhra */
+}
+#logo h2 {
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(233, 6, 6) ;
+    padding-left: 5px ; /* nharakha aal lisar */
+}
+body{
+    background-color:rgb(204, 198, 198) ;
+    margin: 0%;
+    color:rgb(0, 0, 0); /*aal liktiba*/
+    font-family: Arial, Helvetica, sans-serif; /* police*/
+    background: url('file:///C:/Users/sbaa/OneDrive/Bureau/twensa/kb0Zm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0% ; 
+    position: relative;/* yekhouh keml */
+    /*text-align: center; /*thot f nos*/
+
+}
+body{
+    background-color:rgb(204, 198, 198) ;
+    margin: 0%;
+    color:rgb(0, 0, 0); /*aal liktiba*/
+    font-family: Arial, Helvetica, sans-serif; /* police*/
+    background: url('file:///C:/Users/sbaa/OneDrive/Bureau/twensa/kb0Zm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;/*kober i taswira cover yaani lkol ) */
+    margin:0% ; 
+    position: relative;/* yekhouh keml */
+    /*text-align: center; /*thot f nos*/
+
+}
+#mb5 {
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+    margin-right: 20px;
+    background-color: rgb(231, 26, 26);
+    border-color: black;
+    display: inline-flex;
+    border-radius: 60%;
+    box-shadow: 0px 0px  ;
+    display: inline-block
+}
+#mb5{
+    background: url(../image/InShot_20220426_162751923-removebg-preview.png) no-repeat;
+    background-size: cover ;
+        margin-left: 20px;
+        position: absolute;
+    left: 430px ;
+    top: 120px
+    
+    
+}
+ #mb6 {
+        width: 240px;
+        height: 80px;
+        margin-left: 0px;
+        margin-right: 90px;
+        background-color: rgb(231, 26, 26);
+        border-color: black;
+        display: inline-flex;
+        border-radius: 10%;
+        box-shadow: 0px 0px  ;
+        display: inline-block
+    }
+    #mb6{
+        background: url(../image/twensa.png) no-repeat;
+        background-size: cover;
+       }
+        #mb20 {
+    
+            width: 500px;
+            height: 500px;
+            margin-left: 0px;
+            margin-right: 90px;
+            background-color: rgb(231, 26, 26);
+            border-color: black;
+            display: inline-flex;
+            border-radius: 10%;
+            box-shadow: 0px 0px  ;
+            display: inline-block;
+            
+        }
+        #mb20{
+            background: url(../image/cha9a9a.png) no-repeat;
+            background-size: cover;}
+    

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEUVEUX</title>
+    <link rel ="stylesheet" href="css/style.css">
+</head>
+<div class="container"> 
+    <div class="container"> 
+        <div id="logo">
+            <a href='TWENSA.html'>
+            <div  id="mb6">
+            </div>
+        </a>
+        </div>
+         <script>
+             function convert (){
+            var Y=prompt("saisir votre date de naissance")
+            var X=2022
+            var Z=X-Y;
+            
+            alert("votre age :"+Z+" ans ")
+
+
+        }
+        </script>
+        <body>
+   
+        <fieldset>
+<label>Tél: </label>
+<input type="tel" name="tel" maxlength="12" >
+<br><br>
+<label>AGE :</label>
+<input type="radio"value="femme"name="genre" checked><label>- 18 ans</label>
+<input type="radio"value="homme"name="genre"><label>+ 18 ans</label>
+<button onclick="convert()">Votre age</button> <br> <br>
+<form method="GET" action="fichier.php">
+<br><br>
+<label>Ville :</label>
+<select name="Ville">
+    <option></option>
+    <option value="Tunis">Tunisia</option>
+    <option value="Sousse">Sousse</option>
+    <option value="Sfax" selected>Sfax</option>
+    <option value="Monastir" selected>Monastir</option>
+    <option value="Nabel" selected>Nabel</option>
+    <option value="Mahdia" selected>Mahdia</option>
+    <option value="Kef" selected>Kef</option>
+</select>
+<br><br>
+<label>Adresse:</label>
+<textarea name="adresse" rows="3" cols="50" maxlength="150" ></textarea>
+    </fieldset>
+    <fieldset>
+        
+
+    <label>Nous vous enverrons un box pour deposer votre don . Vous pouvez laisser un message pour encourager qui le rejoindra</label>
+<textarea name="adresse" rows="3" cols="50" maxlength="150" ></textarea>
+    </fieldset>
+    <fieldset>
+       
+    <label>PHOTOS:</label>
+    <input type="file" name="cv" >
+    </fieldset>
+<fieldset>   
+<a href="merci.html"> Envoyer </a> <br>
+</fieldset>
+</div>
+<script src="java/java3.js"></script>
+    </form>
+    
+</body>
+</html>
+<style>
+    fieldset{
+        width:1400 px;
+        border-radius: 100px;
+        border-color: rgb(255, 0, 0);
+        
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center}
+      input[type=text],input[type=password]{
+
+width: 300px;
+border-radius: 5px;
+margin-left: 20px;
+margin-top: 10px;
+}
+input[type=submit]{
+width: 100px;
+background-color: rgba(232, 17, 17, 0.308);
+border: none;
+padding: 5px;
+margin-left: 130px;
+border-radius: 5px;
+}
+    </style> 
